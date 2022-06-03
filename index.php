@@ -8,7 +8,7 @@
     <?php
     
     if(isset($_POST["FirstName"])){//show data
-      
+        echo $_POST['FirstName'];
     }else{// show form
       echo '
       <form method="post" action="">
